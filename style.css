@@ -1,0 +1,270 @@
+.container{
+	max-width: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 50px;
+}
+
+.header{
+	background-color: #eee;
+	padding: 16px 0px;
+}
+
+.header .container{
+	display: flex;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+}
+
+body{
+	margin: 0;
+}
+
+ul, ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-family: roboto;
+	color:#283136;	
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-family: roboto;
+}
+
+p{
+	font-family: roboto;
+	font-size: 16px;
+	color:#283136;
+}
+
+h1{
+	font-size: 55px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h6{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.visually-hidden{
+	position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+.logo {
+	margin-right: 100px;
+}
+
+.menu-item{
+	margin: 16px;
+}
+
+.menu-item a{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	font-family: roboto;
+}
+
+.menu-cart{
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+#main-nav{
+	flex-grow: 1;
+}
+
+.hero{
+	background-color: #eee;
+}
+
+.hero-title{
+	line-height: 1;
+	margin-bottom: 18px;
+}
+
+.hero-text p{
+	font-size: 16px;
+	margin-bottom: 40px;
+	max-width: 370px;
+}
+
+.btn{
+	display: inline-block;
+	height: 50px;
+	padding: 0 50px;
+	line-height: 50px;
+	background-color: #fb565a;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: roboto;
+}
+
+.hero-text{
+	align-self: center;
+}
+
+.hero .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.expertize .container{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+.expertize-item-title{
+	margin: 26px 0px;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.expertize-item-btn{
+	display: inline-block;
+	height: 50px;
+	padding: 0 50px;
+	margin-top: 26px;
+	line-height: 50px;
+	background-color: #fb565a;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: roboto;
+}
+
+#applications {
+	background-color: #00ca74;
+}
+
+#presentations {
+	background-color: #efc84a;
+}
+
+.benefits .container{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+hr {
+	margin: 70px;
+}
+.benefits-left-text{
+	margin: 40px 0px;
+}
+
+.benefits-left-title{
+	margin-top: 40px;
+	line-height: 50px;
+}
+
+.benefits-left-list-text li{
+	padding-top: 24px; 	
+}
+
+.benefits-left-list-text li::before{
+	content: "―";
+	padding-right: 10px;
+	color:#fb565a;
+}
+
+.benefits-left-list-text li:last-child{
+	padding-bottom: 24px;
+}
+
+.benefits-left{
+	margin-right: 150px;
+}
+
+.benefits-right-statistics{
+	display: flex;
+}
+
+.benefits-right-statistics sup{
+	font-size: 24px;
+}
+
+.benefits-right-title{
+	margin: 40px 0px;
+}
+
+
+.partners .container{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+	max-width: 100%;
+}
+
+.partners-img {
+	width: 280px;
+	opacity: 0.5;
+	padding-left: 50px;
+	padding-right: 50px;
+	box-sizing: border-box;
+} /*NOT WORKING BORDER-BOX if it's in the body????*/
+
+.map img{
+	width:100%;
+	height: 100%;
+	display: block;
+}
+
+.map{
+	position: relative;
+}
+
+.address{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #FFF;
+	width: 320px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.address h6, p{
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+address{
+	font-style: normal;
+	font-family: roboto;
+	font-size: 16px;
+	color:#283136;
+	margin-bottom: 20px;
+}
+
+.address-btn{
+	margin-top: 20px;
+}
+
+
+
+
